@@ -27,4 +27,5 @@ public class Triangle extends Shape{
 		System.out.println("생성자 Triangle(4) 실행");
 
 	}
+	
 }

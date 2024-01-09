@@ -8,7 +8,6 @@ public class Shape {
 	
 	//생성자
 	public Shape() {
-		
 	}
 	public Shape(String fillColor,String lineColor) {
 		this.fillColor = fillColor;
@@ -16,24 +15,20 @@ public class Shape {
 	}
 	
 	//메소드 g/s
-	public void setFillColor(String fillColor) {
-		this.fillColor = fillColor;
-	}
-	
-	public void setLineColor(String lineColor) {
-		this.lineColor = lineColor;
-	}
 	public String getFillColor() {
 		return fillColor;
+	}
+	public void setFillColor(String fillColor) {
+		this.fillColor = fillColor;
 	}
 	public String getLineColor() {
 		return lineColor;
 	}
-	
-	//메소드 일반
-	public void showInfo() {
-		System.out.println();
+	public void setLineColor(String lineColor) {
+		this.lineColor = lineColor;
 	}
+	//메소드 일반
+	
 
 	
 }
