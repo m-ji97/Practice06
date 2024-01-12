@@ -3,8 +3,8 @@ package com.javaex.ex03;
 public class Shape {
 	
 	//필드
-	private String fillColor;
-	private String lineColor;
+	 String fillColor;
+	 String lineColor;
 	
 	//생성자
 	public Shape() {

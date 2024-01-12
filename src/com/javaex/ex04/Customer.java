@@ -1,6 +1,6 @@
 package com.javaex.ex04;
 
-public class Customer {
+public class Customer extends User {
 	
 	//필드
 	int point;
@@ -10,7 +10,7 @@ public class Customer {
 		super();
 	}
 	
-	public Customer(int point) {
+	public Customer(String id, String password, String name,int point) {
 		super();
 		this.point = point;
 	}
@@ -26,7 +26,7 @@ public class Customer {
 	
 	//메소드 일반
 	public void showInfo() {
-		System.out.println();
+		System.out.println("\"#아이디:\" + getId() + \", #패스워드\" + getPassword() + \", #이름:\" + getName() + \", #포인트:\" + getPoint()");
 	}
 
 }
